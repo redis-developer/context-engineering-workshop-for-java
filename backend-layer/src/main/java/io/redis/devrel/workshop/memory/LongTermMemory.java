@@ -20,9 +20,6 @@ import java.util.List;
 public class LongTermMemory {
 
     @Autowired
-    private String userId;
-
-    @Autowired
     private MemoryService memoryService;
 
     @Bean
