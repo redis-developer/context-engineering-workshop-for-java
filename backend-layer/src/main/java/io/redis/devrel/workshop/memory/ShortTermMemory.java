@@ -38,8 +38,8 @@ public class ShortTermMemory {
     [Lesson 3] Enabling short-term memory with chat memory
 
     Please uncomment the method `chatMemory()` below leaving the other
-    two versions of the method commented out. The version below uses
-    a pass-through memory that stores all messages without limits.
+    version of the method commented out. The version below uses a pass
+    through memory that stores all messages without limits.
     ******************************************************************/
 
 
@@ -56,8 +56,8 @@ public class ShortTermMemory {
      [Lesson 9] Enabling token management to handle token limits
 
      Please uncomment the method `chatMemory()` below leaving the other
-     two versions of the method commented out. The version below uses
-     a token-window based memory that keeps the most recent messages.
+     version of the method commented out. The version below uses a token
+     window based memory that keeps the most recent messages.
      ******************************************************************/
 
 
