@@ -194,6 +194,11 @@ This is how you can interact with the AI:
 - Combines retrieval, injection, and generation
 - Manages the flow from query to response
 
+### 5. `ChatController`
+- Contains an optimized version of the system prompt
+- Provides instructions about how to read the context
+- Provides guidelines for generating accurate responses
+
 ## 🔍 What's Still Missing? (Context Engineering Perspective)
 
 Your application now has basic RAG, but still lacks:
