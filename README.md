@@ -46,7 +46,7 @@ This workshop is organized into 9 progressive labs, each building on the previou
 | 1   | Set up and deploy the AI application                            | 25 mins  | `lab-1-starter` |
 | 2   | Enabling short-term memory with chat memory                     | 10 mins  | `lab-2-starter` |
 | 3   | Knowledge base with embeddings, parsers, and splitters          | 10 mins  | `lab-3-starter` |
-| 4   | Implementing basic RAG with knowledge base data                 | 20 mins  | `lab-4-starter` |
+| 4   | Implementing basic RAG with knowledge base data                 | 15 mins  | `lab-4-starter` |
 | 5   | Enabling on-demand context management for memories              | 10 mins  | `lab-5-starter` |
 | 6   | Implementing query compression and context reranking            | 15 mins  | `lab-6-starter` |
 | 7   | Implementing a few-shot into the system prompt design           | 05 mins  | `lab-7-starter` |
