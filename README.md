@@ -246,6 +246,8 @@ Ask questions that require both memories and knowledge base:
 - "Based on what you know about me, what coffee would you recommend?"
 - "Given my interests, what information from the documents might be relevant?"
 
+![lab-5-checking-memory-by-context.png](images/lab-5-checking-memory-by-context.png)
+
 ### Verify Memory Persistence
 
 1. Stop and restart the backend application
