@@ -227,9 +227,8 @@ Congratulations! You've successfully:
 ## 📚 Additional Resources
 
 - [Understanding Tokenization](https://platform.openai.com/tokenizer)
-- [LangChain4J Token Management](https://docs.langchain4j.dev/tutorials/chat-memory#token-window-chat-memory)
-- [OpenAI Model Limits](https://platform.openai.com/docs/models)
-- [Context Window Strategies](https://www.pinecone.io/learn/context-window/)
+- [LangChain4J Memory Eviction Policy](https://docs.langchain4j.dev/tutorials/chat-memory#eviction-policy)
+- [LLMs Context Windows](https://redis.io/blog/llm-context-windows/)
 
 ## ➡️ Next Steps
 
