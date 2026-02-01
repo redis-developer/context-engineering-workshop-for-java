@@ -43,19 +43,25 @@ Before starting, ensure you have:
 
 ## 🚀 Setup Instructions
 
-### Step 1: Create an Environment File
+### Step 1: Switch to the Lab 1 Branch
+
+```bash
+git checkout lab-1-starter
+```
+
+### Step 2: Create an Environment File
 
 ```bash
 cp .env.example .env
 ```
 
-### Step 2: Define your OpenAI API Key
+### Step 3: Define your OpenAI API Key
 
 ```bash
 OPENAI_API_KEY=your-openai-api-key
 ```
 
-### Step 3: Build the Backend Application
+### Step 4: Build the Backend Application
 
 ```bash
 cd backend-layer
@@ -65,13 +71,13 @@ cd backend-layer
 mvn clean package
 ```
 
-### Step 4: Execute the Backend Application
+### Step 5: Execute the Backend Application
 
 ```bash
 mvn spring-boot:run
 ```
 
-### Step 5: Install the NPM dependencies
+### Step 6: Install the NPM dependencies
 
 ```bash
 cd frontend-layer
@@ -81,7 +87,7 @@ cd frontend-layer
 npm install
 ```
 
-### Step 6: Start the Frontend Application
+### Step 7: Start the Frontend Application
 
 ```bash
 npm start
