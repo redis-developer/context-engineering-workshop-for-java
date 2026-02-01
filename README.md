@@ -238,9 +238,8 @@ Congratulations! You've successfully:
 
 ## 📚 Additional Resources
 
-- [Query Compression Techniques](https://docs.langchain4j.dev/tutorials/rag#query-compression)
+- [Query Compression Techniques](https://docs.langchain4j.dev/tutorials/rag/#query-transformer)
 - [ONNX Runtime Documentation](https://onnxruntime.ai/docs/)
-- [Reranking in RAG Systems](https://www.pinecone.io/learn/series/rag/rerankers/)
 - [MS MARCO Models](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2)
 
 ## ➡️ Next Steps
