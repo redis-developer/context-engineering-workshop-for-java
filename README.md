@@ -260,10 +260,10 @@ Congratulations! You've successfully:
 
 ## 📚 Additional Resources
 
-- [LangChain4J Document Loaders](https://docs.langchain4j.dev/tutorials/rag#document-loaders)
+- [LangChain4J Document Loaders](https://docs.langchain4j.dev/tutorials/rag/#document-loader)
 - [Apache PDFBox Documentation](https://pdfbox.apache.org/)
-- [Document Splitting Strategies](https://docs.langchain4j.dev/tutorials/rag#splitting)
-- [Vector Embeddings Explained](https://www.pinecone.io/learn/vector-embeddings/)
+- [Document Splitting Strategies](https://docs.langchain4j.dev/tutorials/rag/#document-splitter)
+- [Vector Embeddings Explained](https://redis.io/glossary/vector-embeddings/)
 
 ## ➡️ Next Steps
 
