@@ -181,10 +181,7 @@ npm start
 2. Observe that only the most relevant content appears in the context
 3. Check that low-relevance content is filtered out
 
-Example test:
-- Ask: "Tell me about my preferences"
-- Should prioritize the most relevant preference memories
-- Less relevant memories should be filtered by the 0.8 minimum score
+Besides checking the context details using Redis Insight, you can use one of the HTTP requests available in the `rest-api-calls` folder. It will reproduce the same query sent to the Agent Memory Server, so you can have an idea about what context was retrieved, and how it compares to the one reranked.
 
 ## 🎨 Understanding the Code
 
