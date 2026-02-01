@@ -43,15 +43,15 @@ This workshop has an estimated duration of 2 hours and is organized into 9 progr
 
 | Lab | Topic                                                                                                                                                       | Duration | Branch                            |
 |:----|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:----------------------------------
-| 1   | [Set up and deploy the AI application](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-1-starter/README.md)                   | 25 mins  | `lab-1-starter` |
-| 2   | [Enabling short-term memory with chat memory](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-2-starter/README.md)            | 10 mins  | `lab-2-starter` |
-| 3   | [Knowledge base with embeddings, parsers, and splitters](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-3-starter/README.md) | 10 mins  | `lab-3-starter` |
-| 4   | [Implementing basic RAG with knowledge base data](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-4-starter/README.md)        | 15 mins  | `lab-4-starter` |
-| 5   | [Enabling on-demand context management for memories](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-5-starter/README.md)     | 10 mins  | `lab-5-starter` |
-| 6   | [Implementing query compression and context reranking](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-6-starter/README.md)   | 15 mins  | `lab-6-starter` |
-| 7   | [Implementing a few-shot into the system prompt design](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-7-starter/README.md)  | 05 mins  | `lab-7-starter` |
-| 8   | [Enabling token management to handle token limits](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-8-starter/README.md)       | 05 mins  | `lab-8-starter` |
-| 9   | [Implementing semantic caching for conversations](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-9-starter/README.md)        | 25 mins  | `lab-9-starter` |
+| 1   | [Set up and deploy the AI application](../../tree/lab-1-starter/README.md)                   | 25 mins  | `lab-1-starter` |
+| 2   | [Enabling short-term memory with chat memory](../../tree/lab-2-starter/README.md)            | 10 mins  | `lab-2-starter` |
+| 3   | [Knowledge base with embeddings, parsers, and splitters](../../tree/lab-3-starter/README.md) | 10 mins  | `lab-3-starter` |
+| 4   | [Implementing basic RAG with knowledge base data](../../tree/lab-4-starter/README.md)        | 15 mins  | `lab-4-starter` |
+| 5   | [Enabling on-demand context management for memories](../../tree/lab-5-starter/README.md)     | 10 mins  | `lab-5-starter` |
+| 6   | [Implementing query compression and context reranking](../../tree/lab-6-starter/README.md)   | 15 mins  | `lab-6-starter` |
+| 7   | [Implementing a few-shot into the system prompt design](../../tree/lab-7-starter/README.md)  | 05 mins  | `lab-7-starter` |
+| 8   | [Enabling token management to handle token limits](../../tree/lab-8-starter/README.md)       | 05 mins  | `lab-8-starter` |
+| 9   | [Implementing semantic caching for conversations](../../tree/lab-9-starter/README.md)        | 25 mins  | `lab-9-starter` |
 
 Each lab also contains a corresponding `lab-X-solution` branch with the completed code for reference. You can use this branch to compare your current implementation using `git diff {lab-X-solution}`. Alternatively, you can switch to the solution branch at any time during the lab if you are falling behind or to get unstuck.
 
@@ -82,7 +82,7 @@ cd context-engineering-workshop-java
 git checkout lab-1-starter
 ```
 
-Click on the link for [Lab 1: Set up and deploy the AI application](https://github.com/redis-developer/context-engineering-workshop-java/blob/lab-1-starter/README.md) to get started!
+Click on the link for [Lab 1: Set up and deploy the AI application](../../tree/lab-1-starter/README.md) to get started!
 
 ## Resources
 - [Alexa Skill using Context Engineering](https://github.com/redis-developer/agent-memory-server-with-alexa-demo)
