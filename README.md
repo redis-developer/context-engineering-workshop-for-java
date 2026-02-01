@@ -22,28 +22,7 @@ In this lab, you'll implement token management to ensure your application handle
 
 ### Architecture Overview
 
-```
-┌─────────────┐     ┌────────────────—──┐     ┌─────────────——┐
-│  Frontend   │────▶│  Spring Boot API  │────▶│    OpenAI     │
-│  (Node.js)  │     │   + LangChain4J   │     │ GPT-3.5 Turbo │
-└─────────────┘     │  + Token Manager  │     └────────────——─┘
-                    └─────────────────—─┘
-                             │
-                    ┌────────────────────┐
-                    │  Token Window      │
-                    │   Management       │
-                    └────────────────────┘
-                             │
-                    ┌────────┴───────────┐
-                    ▼                    ▼
-            [Current Context]    [Token Counter]
-                    │                    │
-                    ▼                    ▼
-            [Within Limits?]      [Estimate Size]
-                    │                    │
-                    ▼                    ▼
-            [Prune if Needed]    [Keep Recent]
-```
+![architecture-overview.png](images/architecture-overview.png)
 
 ## 📋 Prerequisites Check
 
