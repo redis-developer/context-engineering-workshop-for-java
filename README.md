@@ -168,10 +168,12 @@ npm start
 
 1. Open http://localhost:3000 in your browser
 2. Ask a verbose question: "Can you please tell me what my favorite programming language is based on what you remember about me?"
-3. Check the logs to see the compressed query
+3. Check the short-memory details using Redis Insight
 4. Verify the response still uses the correct memory
 
-![lab-6-query-compression.png](images/lab-6-query-compression.png)
+![lab-6-checking-compression-and-reranking.png](images/lab-6-checking-compression-and-reranking.png)
+
+![lab-6-checking-short-term-memory-details.png](images/lab-6-checking-short-term-memory-details.png)
 
 ### Test Content Reranking
 
@@ -183,28 +185,6 @@ Example test:
 - Ask: "Tell me about my preferences"
 - Should prioritize the most relevant preference memories
 - Less relevant memories should be filtered by the 0.8 minimum score
-
-![lab-6-content-reranking.png](images/lab-6-content-reranking.png)
-
-### Compare Before and After
-
-Test the same queries from Lab 5:
-1. Notice reduced context size
-2. Observe more focused responses
-3. Check improved relevance of retrieved content
-
-### Test with Complex Queries
-
-Try complex, multi-part queries:
-```
-"Based on my work and my favorite programming language, 
-what technical topics from the documents would interest me?"
-```
-
-The system should:
-1. Compress the query to essential terms
-2. Retrieve from both memories and knowledge base
-3. Rerank to show only highly relevant content
 
 ## 🎨 Understanding the Code
 
