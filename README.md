@@ -265,7 +265,3 @@ Congratulations! You've successfully:
 ## ➡️ Next Steps
 
 You're ready for [Lab 8: Enabling Token Management to Handle Token Limits](../lab-8-starter/README.md) where you'll implement dynamic context window management.
-
-```bash
-git checkout lab-8-starter
-```
