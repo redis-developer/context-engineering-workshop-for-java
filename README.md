@@ -22,7 +22,7 @@ In this final lab, you'll implement semantic caching to avoid redundant LLM call
 
 ### Architecture Overview
 
-![architecture-diagram.png](images/architecture-diagram.png)
+![architecture-overview.png](images/architecture-overview.png)
 
 ## 📋 Prerequisites Check
 
