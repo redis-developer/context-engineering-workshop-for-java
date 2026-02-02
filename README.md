@@ -92,22 +92,27 @@ npm start
 
 ### API Health Check
 
-```bash
-# Test the health endpoint
-curl http://localhost:8080/actuator/health
+Test the health endpoint
 
-# Expected response:
-# {"status":"UP"}
+```bash
+curl http://localhost:8080/actuator/health
+```
+
+Expected response:
+
+```json
+{"status":"UP"}
 ```
 
 ### Basic Chat Test
 
-```bash
-# Test basic chat functionality
-curl -X GET "http://localhost:8080/ai/chat/string?query=Hello"
+Test basic chat functionality
 
-# You should receive a streaming response
+```bash
+curl -X GET "http://localhost:8080/ai/chat/string?query=Hello"
 ```
+
+You should receive a streaming response.
 
 ### Frontend Verification
 
@@ -191,7 +196,3 @@ Congratulations! You've successfully:
 ## ➡️ Next Steps
 
 You're ready for [Lab 2: Enabling Short-term Memory with Chat Memory](../lab-2-starter/README.md) where you'll add conversation memory to maintain context across messages.
-
-```bash
-git checkout lab-2-starter
-```
