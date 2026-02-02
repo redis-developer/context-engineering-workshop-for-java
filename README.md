@@ -22,7 +22,7 @@ In this final lab, you'll implement semantic caching to avoid redundant LLM call
 
 ### Architecture Overview
 
-![architecture-diagram.png](images/architecture-diagram.png)
+![architecture-overview.png](images/architecture-overview.png)
 
 ## 📋 Prerequisites Check
 
@@ -47,11 +47,11 @@ Open `backend-layer/src/main/java/io/redis/devrel/workshop/services/LangCacheSer
 
 ```java
 public class LangCacheService {
-   // Stores new responses in cache
-   public void addNewResponse(String prompt, String response) {...}
-
-   // Searches for similar cached responses
-   public Optional<String> searchForResponse(String prompt) {...}
+    // Stores new responses in cache
+    public void addNewResponse(String prompt, String response) {...}
+    
+    // Searches for similar cached responses
+    public Optional<String> searchForResponse(String prompt) {...}
 }
 ```
 
@@ -65,9 +65,9 @@ Key configuration values:
 2. Navigate to the LangCache section in the left menu
 3. Create a new service with `Quick service creation`
 4. Note down:
-   - **Base URL**
-   - **API Key**
-   - **Cache ID**
+    - **Base URL**
+    - **API Key**
+    - **Cache ID**
 
 ### Step 4: Configure LangCache Properties
 
