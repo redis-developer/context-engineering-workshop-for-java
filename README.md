@@ -5,7 +5,7 @@
 By the end of this lab, you will:
 - Implement long-term memory storage for user-specific information
 - Enable users to explicitly store personal preferences and facts
-- Configure dual-layer memory with both short-term and long-term storage
+- Use the LLM to route queries between knowledge base and user memories
 - Integrate user memories with the RAG pipeline for personalized responses
 - Test memory persistence across different chat sessions
 
@@ -17,7 +17,6 @@ In this lab, you'll add long-term memory capabilities that allow users to explic
 
 - **Long-term Memory Storage**: Persistent user-specific memories
 - **Memory Management**: Ability to create and retrieve user memories
-- **Dual-layer Architecture**: Combining short-term chat and long-term memories
 - **Personalized RAG**: Integrating user memories with knowledge retrieval
 
 ### Architecture Overview
