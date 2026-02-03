@@ -98,15 +98,6 @@ cd context-engineering-workshop-java
 
 Click on the link for [Lab 1: Set up and deploy the AI application](../../tree/lab-1-starter/README.md) to get started!
 
-## 🛠️ Troubleshooting
-
-| Issue | Solution |
-|:------|:---------|
-| Docker containers won't start | Ensure Docker Desktop is running and you have sufficient memory allocated (4GB+ recommended) |
-| OpenAI API errors | Verify your API key is set correctly and has available credits |
-| Maven build fails | Run `mvn clean install -DskipTests` to isolate dependency issues |
-| Port already in use | Check for existing processes on ports 8080 (backend) and 3000 (frontend) |
-
 ## 📚 Resources
 - [Alexa Skill using Context Engineering](https://github.com/redis-developer/agent-memory-server-with-alexa-demo)
 - [LangChain4J Documentation](https://docs.langchain4j.dev/)
