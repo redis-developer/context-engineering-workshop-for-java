@@ -109,7 +109,7 @@ Click on the link for [Lab 1: Set up and deploy the AI application](../../tree/l
 - [Alexa Skill using Context Engineering](https://github.com/redis-developer/agent-memory-server-with-alexa-demo)
 - [LangChain4J Documentation](https://docs.langchain4j.dev/)
 - [Redis Agent Memory Server](https://redis.github.io/agent-memory-server/)
-- [Redis LangCache Documentation](https://redis.io/docs/interact/ai/langcache/)
+- [Redis LangCache Documentation](https://redis.io/docs/latest/develop/ai/langcache/)
 - [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
 
 ## 🤝 Contributing
